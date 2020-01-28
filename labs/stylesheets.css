@@ -1,0 +1,55 @@
+
+#searchform {
+	width: 100%;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+
+#form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    display: inline-block;
+    text-align: center;
+}
+
+#search {
+	border-radius: 6px;
+    height: 110px;
+    border: 1.5px solid black;
+    width: 400px;  
+}
+
+#artist-text {
+    font-family: "Anton";
+    text-align: left;
+    margin-top: 100px;
+}
+
+.artists-div {
+	width: 400px;
+    border-radius: 8px;
+    display: flex;
+    border: 1px solid green;
+   
+}
+
+.artists-name {
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.details {
+    font-family: "Roboto+Condensed";
+    font-size: 23px;
+}
+
+img {
+	display: inline-block;
+    margin: 10px;
+}
+
+.artists-profile {
+    margin: auto;
+    word-wrap: break-word;
+}
+
