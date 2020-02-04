@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lab03</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+        
+    <div id="search">
+        <div id="searchform">
+            <div id="form">
+                <h1>Artist Directory</h1>
+               	<input type="text" placeholder="Search" >           
+                <button id="add" onclick="showform()">Add</button>              
+            </div>
+            
+        </div>
+
+        <div id="add-div">
+            <div id="add-form">
+                <input id="name" placeholder="Name" >    
+                <input id="about" placeholder="About" >    
+                <input id="url" placeholder="URL" >    
+                <button onclick="addArtist()">Add</button>       
+            </div>
+           
+        </div>
+            
+            
+        <div id="list"> </div>
+    </div>
+
+    
+</body>
+
+<script src="javascript.js"></script>
+
+</html>
