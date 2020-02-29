@@ -1,0 +1,106 @@
+
+
+#Search {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#searchform {
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+
+#searchbar {
+    display: flex;
+}
+
+#searchbar #add {
+    width: 40%;
+}
+
+#add-div{
+	width: 80%;
+    display: none;
+    
+}
+
+.div {
+    width: 400px;
+    border-radius: 8px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+.innerdiv {
+    padding: 15px;
+    display: flex;
+}
+
+
+.add-form {
+    text-align: center;
+    margin: 10px;
+   
+}
+
+.add-form > input{
+    width: 350px;
+    height: 30px;
+    font-size: 12pt;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+#add-form button{
+    height: 40px;
+    width: 200px;
+	position: relative;
+  	left: 30px;
+  	background-color: #45a049;
+}
+
+#list {
+    vertical-align: middle;
+    margin-left: 8px;
+    text-align: left;
+    display: inline-block;
+    list-style-type:none;
+}
+
+img {
+	height: auto;
+    width: 100px;
+    
+}
+
+.artists-profile {
+  text-align: left;
+    margin-left: 15px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delete{
+    margin: auto;
+}
+
+.deleteBtn {
+    background-color: green;
+      border-radius: 10px;
+      height: 30px;
+      width: 55px;
+      border: 2px solid red;
+      color: white;
+      float: right;
+}
+
+body {
+    width: 500px;
+    margin: auto;
+    padding: 60px;
+}

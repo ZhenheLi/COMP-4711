@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+        <title>Lab4</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="Search">
+            <div id="searchform">
+                <div id="form">
+                    <h1>Artist Directory</h1>
+                </div>
+                <div id="searchbar">
+                    <input type="text" id="search" placeholder="Search" >      
+                    <button id="add" onclick="showform()">Add</button>    
+                	<button id="search-btn" onclick="search()">Search</button>                 
+                </div>
+            </div>
+        </div>
+
+           <div id="add-div">
+            <div class="add-form">
+                <input id="name" placeholder="Name" >  
+            </div>
+            <div class="add-form">
+                <input id="about" placeholder="About" >   
+            </div>
+            <div class="add-form">
+                <input id="url" placeholder="URL" >    
+                <button onclick="addArtist()">Add</button>       
+            </div>
+         </div>
+            
+        
+      
+        <ul id="list"> </ul>
+
+
+    </body>
+
+    <script src="index.js"></script>
+
+</html>
+
+
